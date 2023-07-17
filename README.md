@@ -1,6 +1,6 @@
 # EducativeMLDashbaord
 
-Developer: Jiacheng (Jackie) Chen, Runjie (RJ) Lyu, Macarious Kin Fung Hui, Victor Wu, Xiaolai (Sean) Chen
+Developer: Jiacheng (Jackie) Chen, Runjie (RJ) Lyu, Macarious Kin Fung Hui, Victor Wu, Yaqi Lyu, Xiaolai (Sean) Chen
 
 Instructor: Dr. Mona Ali, Associate Teaching Professor, Northeastern University Vancouver Campus
 

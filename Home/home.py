@@ -8,12 +8,15 @@ from LearnML.learn_ml_main import learn_ml_algorithms_main
 
 def home_main():
     def principle_callback():
+        st.session_state.get("principle_button", False)
         st.session_state["principle_button"] = not st.session_state["principle_button"]
 
     def learn_algorithms_callback():
+        st.session_state.get("learn_algo_button", False)
         st.session_state['learn_algo_button'] = True
 
     def apply_algorithms_callback():
+        st.session_state.get("apply_algo_button", False)
         st.session_state['apply_algo_button'] = True
     # nav to the princple page
     if st.session_state.get("principle_button", False):

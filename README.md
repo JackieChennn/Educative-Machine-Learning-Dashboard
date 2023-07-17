@@ -6,11 +6,15 @@ Instructor: Dr. Mona Ali, Associate Teaching Professor, Northeastern University 
 
 This web application is under active developement. Machine Learning background, SVM learning demo is live.
 
-To run the code, run the following commands
+To run the code on your own machine, run the following commands
 ```
 python3 -m pip install -r requirements.txt
 python3 -m streamlit run main.py
 ```
+
+Otherwise, please use the url link to access the web application.
+
+https://jackie-educative-machine-learning-dashboard.streamlit.app/
 
 ## Modules
 

@@ -15,9 +15,8 @@ def home_main():
 
     def apply_algorithms_callback():
         st.session_state['apply_algo_button'] = True
-    st.session_state["principle_button"] = False
     # nav to the princple page
-    if st.session_state["principle_button"]:
+    if st.session_state.get("principle_button", False):
         principles()
     else:
         col1, col2, col3 = st.columns([0.15, 0.7, 0.15])

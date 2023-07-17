@@ -6,8 +6,6 @@ from streamlit_option_menu import option_menu
 from LearnML.learn_ml_main import learn_ml_algorithms_main
 
 
-st.session_state["principle_button"] = False
-
 def home_main():
     def principle_callback():
         st.session_state["principle_button"] = not st.session_state["principle_button"]
@@ -17,7 +15,7 @@ def home_main():
 
     def apply_algorithms_callback():
         st.session_state['apply_algo_button'] = True
-
+    st.session_state["principle_button"] = False
     # nav to the princple page
     if st.session_state["principle_button"]:
         principles()

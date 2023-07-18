@@ -1,20 +1,20 @@
-# EducativeMLDashbaord
+# EducativeMLDashboard
 
 Developer: Jiacheng (Jackie) Chen, Runjie (RJ) Lyu, Macarious Kin Fung Hui, Victor Wu, Yaqi Lyu, Xiaolai (Sean) Chen
 
 Instructor: Dr. Mona Ali, Associate Teaching Professor, Northeastern University Vancouver Campus
 
-This web application is under active developement. Machine Learning background, SVM learning demo is live.
+This web application is under active developement. Machine Learning background, EDA, SVM learning demo is online.
 
-To run the code on your own machine, run the following commands
+## Please use the url link to access the deployed web application.
+
+https://jackie-educative-machine-learning-dashboard.streamlit.app/
+
+## Or run the code on your own machine, please use the following commands
 ```
 python3 -m pip install -r requirements.txt
 python3 -m streamlit run main.py
 ```
-
-Otherwise, please use the url link to access the web application.
-
-https://jackie-educative-machine-learning-dashboard.streamlit.app/
 
 ## Modules
 
